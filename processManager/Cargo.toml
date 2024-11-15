@@ -1,0 +1,11 @@
+[package]
+name = "proj"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+procfs = "0.17.0"
+sysinfo = "0.32"
+systemstat = "0.2.3"
+nvml-wrapper = "0.9"
+crossterm = "0.21"
