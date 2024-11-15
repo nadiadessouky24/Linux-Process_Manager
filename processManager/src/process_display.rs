@@ -78,4 +78,5 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
         stdout.flush()?; // Ensure the output is flushed
         thread::sleep(update_interval);
     }
+    
 }
