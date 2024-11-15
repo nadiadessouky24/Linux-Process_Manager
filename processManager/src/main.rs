@@ -14,7 +14,7 @@ use load_avg::display_load_avg;
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     exiting_loop();
     loop {
-            let input = input::get_user_input("To Display Process information enter diplay, \n To display load average enter loadavg \n To run system calls enter command \n To exit enter exit: ");
+            let input = input::get_user_input("\n To Display Process information enter 'diplay', \n To display load average enter 'loadavg' \n To run system calls enter 'command' \n To exit enter 'exit': ");
 
             match input.as_str() {
                 "display" => 
