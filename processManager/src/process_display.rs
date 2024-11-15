@@ -1,9 +1,11 @@
-use std::io::{stdout, Write};
+use std::{io::{stdout, Write}, sync::{atomic::AtomicBool, Arc}};
 use crossterm::{execute, terminal::{Clear, ClearType}, cursor};
 use std::{thread, time::Duration};
 use systemstat::{System as StatSystem, Platform};
 use procfs::process::all_processes;
 use sysinfo::{System, Process};
+use crate::{common::ctrlc, ctrlc_handler::{exiting_loop, RUNNING}};
+use crate::common::Ordering;
 
 pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
     // Initialize system utilities
@@ -12,7 +14,7 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
     let update_interval = Duration::from_secs(5);
     let mut stdout = stdout();
 
-    loop {
+    while  RUNNING.load(Ordering::SeqCst) {
         // Clear the terminal and move the cursor to the top-left
         execute!(stdout, Clear(ClearType::All), cursor::MoveTo(0, 0))?;
 
@@ -78,5 +80,6 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
         stdout.flush()?; // Ensure the output is flushed
         thread::sleep(update_interval);
     }
+    Ok(())
     
 }

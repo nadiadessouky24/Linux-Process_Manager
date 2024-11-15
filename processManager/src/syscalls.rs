@@ -1,7 +1,7 @@
 use std::process::{Command, Stdio};
 use std::io::{self, Write};
 use crate::input;
-use input::get_user_input;
+use crate::input::get_user_input;
 
 pub fn syscalls() {
     loop {
