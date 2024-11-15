@@ -1,0 +1,1 @@
+/home/nour/OS-Project/processManager/target/debug/proj: /home/nour/OS-Project/processManager/src/load_avg.rs /home/nour/OS-Project/processManager/src/main.rs /home/nour/OS-Project/processManager/src/process_display.rs
