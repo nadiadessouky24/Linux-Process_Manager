@@ -4,14 +4,15 @@ mod input;
 mod syscalls;
 mod common;
 mod ctrlc_handler;
-mod display_zombie; 
+mod zombie_processes; 
 use ctrlc_handler::{exiting_loop,RUNNING};
 use syscalls::syscalls;
 use crate::common::{Arc,ctrlc,Ordering};
 use input::get_user_input; 
 use process_display::display_process_info; 
 use load_avg::display_load_avg; 
-use display_zombie::display_zombie_processes; 
+use zombie_processes::display_zombie_processes;
+
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     exiting_loop();
@@ -34,8 +35,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                    syscalls();
                 }
                 "zombies" => {
-                RUNNING.store(true, Ordering::SeqCst);
-                display_zombie_processes()?;  
+                    RUNNING.store(true, Ordering::SeqCst);
+                    display_zombie_processes()?;
                 }
                 "exit" => 
                 {
