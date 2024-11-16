@@ -17,7 +17,7 @@ use zombie_processes::display_zombie_processes;
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     exiting_loop();
     loop {
-            let input = input::get_user_input("\n To Display Process information enter 'diplay', \n To display load average enter 'loadavg' \n To run system calls enter 'command' \n To exit enter 'exit': ");
+            let input = input::get_user_input("\n To Display Process information enter 'diplay', \n To display load average enter 'loadavg' \n To run system calls enter 'command' \n To Display Zombie Processes enter 'zombies': \n To exit enter 'exit': ");
 
             match input.as_str() {
                 "display" => 
@@ -34,7 +34,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 {
                    syscalls();
                 }
-                "zombies" => {
+                "zombies" => 
+                {
                     RUNNING.store(true, Ordering::SeqCst);
                     display_zombie_processes();  
                 }

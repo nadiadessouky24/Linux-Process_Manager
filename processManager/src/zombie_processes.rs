@@ -1,7 +1,7 @@
-use sysinfo::{ProcessExt, System, SystemExt};
+use sysinfo:: System;
 use std::io::{self, Write}; 
 
-fn display_zombie_processes() {
+pub fn display_zombie_processes() {
     let mut system = System::new_all();
     system.refresh_all();
 
