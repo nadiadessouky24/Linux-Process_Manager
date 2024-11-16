@@ -1,20 +1,24 @@
 use sysinfo::{ProcessExt, System, SystemExt};
 use std::io::{self, Write}; 
 
-pub fn display_zombie_processes() -> usize {
+fn display_zombie_processes() {
     let mut system = System::new_all();
     system.refresh_all();
 
-    let mut zombie_count = 0;
-
+    let mut zombie_found = false;
+    
+    
     for (_, process) in system.processes() {
         if let sysinfo::ProcessStatus::Zombie = process.status() {
             println!("Zombie Process: PID {}", process.pid());
-            zombie_count += 1;
+            zombie_found = true;
         }
     }
 
-    zombie_count
+    
+    if !zombie_found {
+        println!("No zombie processes found.");
+    }
 }
 
 
