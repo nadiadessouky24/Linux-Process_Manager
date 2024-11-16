@@ -1,4 +1,4 @@
-use sysinfo:: System;
+use sysinfo::{System, SystemExt, ProcessExt};
 use std::io::{self, Write}; 
 
 pub fn display_zombie_processes() {

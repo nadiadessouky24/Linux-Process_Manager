@@ -2,8 +2,7 @@ use std::{io::{stdout, Write}, sync::{atomic::AtomicBool, Arc}};
 use crossterm::{execute, terminal::{Clear, ClearType}, cursor};
 use std::{thread, time::Duration};
 use systemstat::{System as StatSystem, Platform};
-use procfs::process::all_processes;
-use sysinfo::{System, Process};
+use sysinfo::{System, SystemExt, ProcessExt};
 use crate::{common::ctrlc, ctrlc_handler::{exiting_loop, RUNNING}};
 use crate::common::Ordering;
 
@@ -13,8 +12,10 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
     let stat_sys = StatSystem::new();
     let update_interval = Duration::from_secs(5);
     let mut stdout = stdout();
+    sysinfo.refresh_all();
+    thread::sleep(Duration::from_secs(2));
 
-    while  RUNNING.load(Ordering::SeqCst) {
+    while RUNNING.load(Ordering::SeqCst) {
         // Clear the terminal and move the cursor to the top-left
         execute!(stdout, Clear(ClearType::All), cursor::MoveTo(0, 0))?;
 
@@ -33,20 +34,16 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
         let mut stopped = 0;
         let mut zombie = 0;
 
-        if let Ok(processes) = all_processes() {
-            for process_result in processes {
-                if let Ok(process) = process_result {
-                    if let Ok(stat) = process.stat() {
-                        total_tasks += 1;
-                        match stat.state {
-                            'R' => running += 1,
-                            'S' => sleeping += 1,
-                            'T' => stopped += 1,
-                            'Z' => zombie += 1,
-                            _ => {}
-                        }
-                    }
-                }
+        // Iterate over processes using `sysinfo`
+        for process in sysinfo.processes() {
+            let proc = process.1;
+            total_tasks += 1;
+            match proc.status() {
+                sysinfo::ProcessStatus::Run => running += 1,
+                sysinfo::ProcessStatus::Sleep => sleeping += 1,
+                sysinfo::ProcessStatus::Stop => stopped += 1,
+                sysinfo::ProcessStatus::Zombie => zombie += 1,
+                _ => {}
             }
         }
 
@@ -66,14 +63,17 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
             "PID", "Name", "Status", "CPU (%)", "Mem (KB)"
         );
 
-        for (pid, process) in sysinfo.processes() {
+        for process in sysinfo.processes() {
+            let pid = process.0;
+            let proc = process.1;
+
             println!(
-                "{:<10} {:<30} {:<10} {:<15.2} {:<15}",
+                "{:<10} {:<30} {:<10} {:<10.2} {:<10}",
                 pid,
-                format!("{}", process.name().to_string_lossy()),
-                format!("{:?}", process.status()),
-                process.cpu_usage(),
-                process.memory() / 1024
+                truncate_string(proc.name(), 30),
+                format!("{:?}", proc.status()),
+                proc.cpu_usage(),
+                proc.memory() / 1024
             );
         }
 
@@ -81,5 +81,13 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
         thread::sleep(update_interval);
     }
     Ok(())
-    
+}
+
+// Helper function to truncate long strings for the "Name" column
+fn truncate_string(input: &str, max_length: usize) -> String {
+    if input.len() > max_length {
+        format!("{}...", &input[..max_length - 3])
+    } else {
+        input.to_string()
+    }
 }

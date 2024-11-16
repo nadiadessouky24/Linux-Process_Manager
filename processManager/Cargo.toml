@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 procfs = "0.17.0"
-sysinfo = "0.32"
+sysinfo = "0.22"
 systemstat = "0.2.3"
 nvml-wrapper = "0.9"
 crossterm = "0.27"
