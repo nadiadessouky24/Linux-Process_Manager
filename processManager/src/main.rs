@@ -36,7 +36,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 }
                 "zombies" => 
                 {
-                    RUNNING.store(true, Ordering::SeqCst);
                     display_zombie_processes();  
                 }
                 "exit" => 
