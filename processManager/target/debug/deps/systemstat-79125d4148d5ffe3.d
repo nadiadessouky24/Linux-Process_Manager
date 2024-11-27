@@ -1,0 +1,10 @@
+/home/moh04/my_code/demo/OS-Project/processManager/target/debug/deps/libsystemstat-79125d4148d5ffe3.rmeta: /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/lib.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/data.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/mod.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/common.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/unix.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/linux.rs
+
+/home/moh04/my_code/demo/OS-Project/processManager/target/debug/deps/systemstat-79125d4148d5ffe3.d: /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/lib.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/data.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/mod.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/common.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/unix.rs /home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/linux.rs
+
+/home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/lib.rs:
+/home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/data.rs:
+/home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/mod.rs:
+/home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/common.rs:
+/home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/unix.rs:
+/home/moh04/.cargo/registry/src/index.crates.io-6f17d22bba15001f/systemstat-0.2.3/src/platform/linux.rs:
