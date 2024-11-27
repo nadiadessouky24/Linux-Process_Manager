@@ -5,6 +5,10 @@ mod syscalls;
 mod common;
 mod ctrlc_handler;
 mod zombie_processes; 
+mod handling_filter;
+mod display_filtered;
+mod filtering;
+
 use ctrlc_handler::{exiting_loop,RUNNING};
 use syscalls::syscalls;
 use crate::common::{Arc,ctrlc,Ordering};
@@ -12,42 +16,44 @@ use input::get_user_input;
 use process_display::display_process_info; 
 use load_avg::display_load_avg; 
 use zombie_processes::display_zombie_processes;
+use handling_filter::handle_filter_process;
+use display_filtered::display_filtered_processes;
+use filtering::filter_processes;
+
 
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     exiting_loop();
     loop {
-            let input = input::get_user_input("\n To Display Process information enter 'display', \n To display load average enter 'loadavg' \n To run system calls enter 'command' \n To Display Zombie Processes enter 'zombies': \n To exit enter 'exit': ");
+        let input = input::get_user_input(
+            "\n To Display Process information enter 'display', \n To display filtered process enter 'filter', \n To display load average enter 'loadavg', \n To run system calls enter 'command', \n To Display Zombie Processes enter 'zombies', \n To exit enter 'exit': ",
+        );
 
-            match input.as_str() {
-                "display" => 
-                {
-                    RUNNING.store(true, Ordering::SeqCst); 
-                    display_process_info()?;
-                }
-                "loadavg" => 
-                {
-                    RUNNING.store(true, Ordering::SeqCst); 
-                    display_load_avg()?; 
-                }
-                "command" =>
-                {
-                   syscalls();
-                }
-                "zombies" => 
-                {
-                    display_zombie_processes();  
-                }
-                "exit" => 
-                {
-                    break;
-                }
-                _ => 
-                {
-                    println!("Unknown command, try again.");
-                }
-
+        match input.as_str() {
+            "display" => {
+                RUNNING.store(true, Ordering::SeqCst); 
+                display_process_info()?;
             }
+            "filter" => {
+                handle_filter_process()?;
+            }
+            "loadavg" => {
+                RUNNING.store(true, Ordering::SeqCst);
+                display_load_avg()?;
+            }
+            "command" => {
+                syscalls();
+            }
+            "zombies" => {
+                display_zombie_processes();
+            }
+            "exit" => {
+                break;
+            }
+            _ => {
+                println!("Unknown command, try again.");
+            }
+        }
     }
     Ok(())
 }
