@@ -1,0 +1,12 @@
+/home/nour/OS-Project/processManager/target/debug/deps/libprettytable-c395811b5c15d5f5.rmeta: /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs
+
+/home/nour/OS-Project/processManager/target/debug/deps/libprettytable-c395811b5c15d5f5.rlib: /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs
+
+/home/nour/OS-Project/processManager/target/debug/deps/prettytable-c395811b5c15d5f5.d: /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs /home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs
+
+/home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs:
+/home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs:
+/home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs:
+/home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs:
+/home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs:
+/home/nour/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs:
