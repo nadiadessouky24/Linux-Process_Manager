@@ -1,0 +1,10 @@
+/home/nadia-dessouky/Desktop/Fall-2024/OS-Project/processManager/target/debug/deps/libprettytable-0afacd327cc69f27.rmeta: /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs
+
+/home/nadia-dessouky/Desktop/Fall-2024/OS-Project/processManager/target/debug/deps/prettytable-0afacd327cc69f27.d: /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs /home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs
+
+/home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/lib.rs:
+/home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/cell.rs:
+/home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/format.rs:
+/home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/row.rs:
+/home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/utils.rs:
+/home/nadia-dessouky/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-0.10.0/src/csv.rs:

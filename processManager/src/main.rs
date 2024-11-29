@@ -1,46 +1,25 @@
-mod load_avg; 
 mod process_display;
 mod input;
 mod syscalls;
 mod common;
-mod ctrlc_handler;
-mod zombie_processes; 
-use ctrlc_handler::{exiting_loop,RUNNING};
-use syscalls::syscalls;
 use crate::common::{Arc,ctrlc,Ordering};
-use input::get_user_input; 
 use process_display::display_process_info; 
-use load_avg::display_load_avg; 
-use zombie_processes::display_zombie_processes;
+
 
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    exiting_loop();
     loop {
-            let input = input::get_user_input("\n To Display Process information enter 'display', \n To display load average enter 'loadavg' \n To run system calls enter 'command' \n To Display Zombie Processes enter 'zombies': \n To exit enter 'exit': ");
+            let mut input = input::get_user_input("\n GUI/CLI: ");
+            input = input.to_uppercase();
 
             match input.as_str() {
-                "display" => 
+                "CLI" => 
                 {
-                    RUNNING.store(true, Ordering::SeqCst); 
                     display_process_info()?;
                 }
-                "loadavg" => 
+                "GUI" => 
                 {
-                    RUNNING.store(true, Ordering::SeqCst); 
-                    display_load_avg()?; 
-                }
-                "command" =>
-                {
-                   syscalls();
-                }
-                "zombies" => 
-                {
-                    display_zombie_processes();  
-                }
-                "exit" => 
-                {
-                    break;
+                    println!("you chose GUI");
                 }
                 _ => 
                 {
@@ -49,5 +28,4 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
             }
     }
-    Ok(())
 }
