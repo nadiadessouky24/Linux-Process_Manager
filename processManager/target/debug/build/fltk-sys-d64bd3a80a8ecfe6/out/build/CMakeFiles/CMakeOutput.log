@@ -1,0 +1,1077 @@
+The system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: ;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_311b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_311b5.dir/build.make CMakeFiles/cmTC_311b5.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_311b5.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_311b5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccnp30ul.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_311b5.dir/'
+ as -v --64 -o CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o /tmp/ccnp30ul.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_311b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_311b5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o -o cmTC_311b5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_311b5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_311b5.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMd3PIP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_311b5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_311b5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_311b5.'
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_311b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_311b5.dir/build.make CMakeFiles/cmTC_311b5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_311b5.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_311b5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccnp30ul.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_311b5.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o /tmp/ccnp30ul.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_311b5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_311b5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o -o cmTC_311b5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_311b5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_311b5.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMd3PIP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_311b5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMd3PIP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_311b5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_311b5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_641c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_641c6.dir/build.make CMakeFiles/cmTC_641c6.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_641c6.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_641c6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDLkTfN.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_641c6.dir/'
+ as -v --64 -o CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDLkTfN.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_641c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_641c6.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_641c6 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_641c6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_641c6.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d92aa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_641c6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_641c6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_641c6.'
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_641c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_641c6.dir/build.make CMakeFiles/cmTC_641c6.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_641c6.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_641c6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDLkTfN.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_641c6.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDLkTfN.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_641c6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_641c6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_641c6 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_641c6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_641c6.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d92aa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_641c6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2d92aa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_641c6] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_641c6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4b81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4b81.dir/build.make CMakeFiles/cmTC_d4b81.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4b81.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_d4b81.dir/CheckIncludeFile.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4b81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b81.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_d4b81.dir/CheckIncludeFile.c.o -o cmTC_d4b81 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e687a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e687a.dir/build.make CMakeFiles/cmTC_e687a.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e687a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_e687a.dir/CheckIncludeFile.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e687a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e687a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_e687a.dir/CheckIncludeFile.c.o -o cmTC_e687a 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_341d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_341d7.dir/build.make CMakeFiles/cmTC_341d7.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_341d7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_341d7.dir/CheckIncludeFile.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_341d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_341d7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_341d7.dir/CheckIncludeFile.c.o -o cmTC_341d7 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_876b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_876b4.dir/build.make CMakeFiles/cmTC_876b4.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_876b4.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_876b4.dir/SIZEOF_SHORT.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_876b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_876b4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_876b4.dir/SIZEOF_SHORT.c.o -o cmTC_876b4 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3232/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3232.dir/build.make CMakeFiles/cmTC_a3232.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3232.dir/SIZEOF_INT.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_a3232.dir/SIZEOF_INT.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_a3232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3232.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_a3232.dir/SIZEOF_INT.c.o -o cmTC_a3232 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4a36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4a36.dir/build.make CMakeFiles/cmTC_c4a36.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4a36.dir/SIZEOF_LONG.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_c4a36.dir/SIZEOF_LONG.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_c4a36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4a36.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_c4a36.dir/SIZEOF_LONG.c.o -o cmTC_c4a36 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be12e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be12e.dir/build.make CMakeFiles/cmTC_be12e.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be12e.dir/HAVE_LONG_LONG.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_be12e.dir/HAVE_LONG_LONG.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckTypeSize/HAVE_LONG_LONG.c
+Linking C executable cmTC_be12e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be12e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_be12e.dir/HAVE_LONG_LONG.c.o -o cmTC_be12e 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57527/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57527.dir/build.make CMakeFiles/cmTC_57527.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57527.dir/HAVE_DLFCN_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_57527.dir/HAVE_DLFCN_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
+Linking C executable cmTC_57527
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57527.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_57527.dir/HAVE_DLFCN_H.c.o -o cmTC_57527 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files GL/glu.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46436/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46436.dir/build.make CMakeFiles/cmTC_46436.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46436.dir/HAVE_GL_GLU_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_46436.dir/HAVE_GL_GLU_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLU_H.c
+Linking C executable cmTC_46436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46436.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_46436.dir/HAVE_GL_GLU_H.c.o -o cmTC_46436 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68c0f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68c0f.dir/build.make CMakeFiles/cmTC_68c0f.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68c0f.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_68c0f.dir/HAVE_LOCALE_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_68c0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68c0f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_68c0f.dir/HAVE_LOCALE_H.c.o -o cmTC_68c0f 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65708/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65708.dir/build.make CMakeFiles/cmTC_65708.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65708.dir/HAVE_STDIO_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_65708.dir/HAVE_STDIO_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STDIO_H.c
+Linking C executable cmTC_65708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65708.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_65708.dir/HAVE_STDIO_H.c.o -o cmTC_65708 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03b9d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03b9d.dir/build.make CMakeFiles/cmTC_03b9d.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03b9d.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_03b9d.dir/HAVE_STRINGS_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_03b9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03b9d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_03b9d.dir/HAVE_STRINGS_H.c.o -o cmTC_03b9d 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5626a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5626a.dir/build.make CMakeFiles/cmTC_5626a.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5626a.dir/HAVE_SYS_SELECT_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_5626a.dir/HAVE_SYS_SELECT_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
+Linking C executable cmTC_5626a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5626a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_5626a.dir/HAVE_SYS_SELECT_H.c.o -o cmTC_5626a 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files X11/Xlib.h;X11/Xregion.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69faa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69faa.dir/build.make CMakeFiles/cmTC_69faa.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69faa.dir/HAVE_X11_XREGION_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_69faa.dir/HAVE_X11_XREGION_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_X11_XREGION_H.c
+Linking C executable cmTC_69faa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69faa.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_69faa.dir/HAVE_X11_XREGION_H.c.o -o cmTC_69faa 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_adf15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_adf15.dir/build.make CMakeFiles/cmTC_adf15.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adf15.dir/HAVE_PTHREAD_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_adf15.dir/HAVE_PTHREAD_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_H.c
+Linking C executable cmTC_adf15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adf15.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_adf15.dir/HAVE_PTHREAD_H.c.o -o cmTC_adf15 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6ca7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6ca7.dir/build.make CMakeFiles/cmTC_e6ca7.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6ca7.dir/HAVE_DIRENT_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_e6ca7.dir/HAVE_DIRENT_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRENT_H.c
+Linking C executable cmTC_e6ca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ca7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_e6ca7.dir/HAVE_DIRENT_H.c.o -o cmTC_e6ca7 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the dlsym exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1593e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1593e.dir/build.make CMakeFiles/cmTC_1593e.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1593e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_1593e.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1593e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1593e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_1593e.dir/CheckSymbolExists.c.o -o cmTC_1593e  -ldl 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlsym
+  return ((int*)(&dlsym))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the localeconv exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4415f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4415f.dir/build.make CMakeFiles/cmTC_4415f.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4415f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_4415f.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4415f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4415f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_4415f.dir/CheckSymbolExists.c.o -o cmTC_4415f 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localeconv
+  return ((int*)(&localeconv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the png_get_valid exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a83a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a83a6.dir/build.make CMakeFiles/cmTC_a83a6.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a83a6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_a83a6.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a83a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a83a6.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_a83a6.dir/CheckSymbolExists.c.o -o cmTC_a83a6  /usr/lib/x86_64-linux-gnu/libpng.so 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <png.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef png_get_valid
+  return ((int*)(&png_get_valid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the png_set_tRNS_to_alpha exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a60e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a60e.dir/build.make CMakeFiles/cmTC_3a60e.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a60e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_3a60e.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a60e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a60e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_3a60e.dir/CheckSymbolExists.c.o -o cmTC_3a60e  /usr/lib/x86_64-linux-gnu/libpng.so 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <png.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef png_set_tRNS_to_alpha
+  return ((int*)(&png_set_tRNS_to_alpha))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scandir exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81246/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81246.dir/build.make CMakeFiles/cmTC_81246.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81246.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_81246.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_81246
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81246.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_81246.dir/CheckSymbolExists.c.o -o cmTC_81246 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scandir
+  return ((int*)(&scandir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbacb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbacb.dir/build.make CMakeFiles/cmTC_dbacb.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbacb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_dbacb.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dbacb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbacb.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_dbacb.dir/CheckSymbolExists.c.o -o cmTC_dbacb 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0f92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0f92.dir/build.make CMakeFiles/cmTC_e0f92.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0f92.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_e0f92.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e0f92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f92.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_e0f92.dir/CheckSymbolExists.c.o -o cmTC_e0f92 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a852c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a852c.dir/build.make CMakeFiles/cmTC_a852c.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a852c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_a852c.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a852c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a852c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_a852c.dir/CheckSymbolExists.c.o -o cmTC_a852c 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9a7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9a7b.dir/build.make CMakeFiles/cmTC_e9a7b.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9a7b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_e9a7b.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e9a7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9a7b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_e9a7b.dir/CheckSymbolExists.c.o -o cmTC_e9a7b 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the trunc exist passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6259/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6259.dir/build.make CMakeFiles/cmTC_d6259.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6259.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_d6259.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d6259
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6259.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_d6259.dir/CheckSymbolExists.c.o -o cmTC_d6259  -lm 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01a0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01a0d.dir/build.make CMakeFiles/cmTC_01a0d.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01a0d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_01a0d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01a0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a0d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_01a0d.dir/CheckFunctionExists.c.o -o cmTC_01a0d  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2acf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2acf.dir/build.make CMakeFiles/cmTC_e2acf.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2acf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_e2acf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2acf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2acf.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_e2acf.dir/CheckFunctionExists.c.o -o cmTC_e2acf 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b26c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b26c7.dir/build.make CMakeFiles/cmTC_b26c7.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b26c7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_b26c7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b26c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b26c7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_b26c7.dir/CheckFunctionExists.c.o -o cmTC_b26c7 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_42260/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42260.dir/build.make CMakeFiles/cmTC_42260.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42260.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_42260.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_42260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42260.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_42260.dir/CheckFunctionExists.c.o -o cmTC_42260 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_632eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_632eb.dir/build.make CMakeFiles/cmTC_632eb.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_632eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_632eb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_632eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_632eb.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_632eb.dir/CheckFunctionExists.c.o -o cmTC_632eb 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5588c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5588c.dir/build.make CMakeFiles/cmTC_5588c.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5588c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_5588c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5588c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5588c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_5588c.dir/CheckFunctionExists.c.o -o cmTC_5588c  -lICE 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e51b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e51b.dir/build.make CMakeFiles/cmTC_6e51b.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e51b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_6e51b.dir/CheckIncludeFile.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6e51b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e51b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_6e51b.dir/CheckIncludeFile.c.o -o cmTC_6e51b 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_750a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_750a2.dir/build.make CMakeFiles/cmTC_750a2.dir/build
+gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_750a2.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_750a2.dir/src.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_750a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750a2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  CMakeFiles/cmTC_750a2.dir/src.c.o -o cmTC_750a2 
+gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

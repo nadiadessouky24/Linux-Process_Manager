@@ -1,0 +1,15 @@
+prefix="/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out"
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: cfltk
+Description: C Bindings for FLTK
+URL: https://github.com/MoAlyousef/cfltk
+Version: 1.4.36
+
+Requires:
+Requires.private:  x11 xinerama xcursor xfixes xext xrender xft fontconfig cairo pango pangoxft pangocairo gobject-2.0 wayland-client wayland-cursor xkbcommon
+Cflags: -I"${includedir}" 
+Libs: -L"${libdir}" -lcfltk
+Libs.private: -L"${libdir}" -lcfltk -lfltk -lfltk_images -lfltk_z -lfltk_jpeg -lfltk_png -ldbus-1 -lsupc++ -ldl -pthread

@@ -1,13 +1,379 @@
+// use std::{
+//     fs,
+//     io::{self, stdin, stdout, BufRead, Write},
+//     process::Command,
+//     sync::mpsc,
+//     thread,
+//     time::Duration,
+// };
+// use crossterm::{execute, terminal::{Clear, ClearType}, cursor};
+// use sysinfo::{System, SystemExt, ProcessExt};
+// use systemstat::{System as StatSystem, Platform};
+// use tui::{
+//     backend::TermionBackend,
+//     layout::{Layout, Constraint},
+//     style::{Modifier, Style},
+//     text::{Span, Spans},
+//     widgets::{Block, Borders, Row as TuiRow, Table as TuiTable, TableState, Paragraph, Wrap},
+//     Terminal,
+// };
+// use termion::{
+//     raw::IntoRawMode,
+//     input::{MouseTerminal, TermRead},
+//     screen::AlternateScreen,
+//     event::Key,
+// };
+
+// pub fn next(state: &mut TableState, items: &Vec<TuiRow>) {
+//     let i = match state.selected() {
+//         Some(i) => {
+//             if i >= items.len() - 1 {
+//                 0
+//             } else {
+//                 i + 1
+//             }
+//         }
+//         None => 0,
+//     };
+//     state.select(Some(i));
+// }
+
+// pub fn previous(state: &mut TableState, items: &Vec<TuiRow>) {
+//     let i = match state.selected() {
+//         Some(i) => {
+//             if i == 0 {
+//                 items.len() - 1
+//             } else {
+//                 i - 1
+//             }
+//         }
+//         None => 0,
+//     };
+//     state.select(Some(i));
+// }
+
+// fn get_cpu_core_for_pid(pid: i32) -> Option<i32> {
+//     let stat_path = format!("/proc/{}/stat", pid);
+//     if let Ok(stat_content) = fs::read_to_string(stat_path) {
+//         let fields: Vec<&str> = stat_content.split_whitespace().collect();
+//         if fields.len() >= 39 {
+//             return fields[38].parse().ok(); // 39th field is the core ID
+//         }
+//     }
+//     None
+// }
+
+// fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow<'a>> {
+//     let mut rows = Vec::new();
+
+//     rows.push(TuiRow::new(vec![
+//         Span::styled("PID", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::styled("NAME", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::styled("STATUS", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::styled("CPU %", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::styled("MEMORY", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::styled("CORE", Style::default().add_modifier(Modifier::BOLD)),
+//     ]));
+
+//     for (pid, process) in system.processes() {
+//         rows.push(TuiRow::new(vec![
+//             Span::raw(pid.to_string()),
+//             Span::raw(process.name().to_string()),
+//             Span::raw(format!("{:?}", process.status())),
+//             Span::raw(format!("{:.2}", process.cpu_usage())),
+//             Span::raw((process.memory() / 1024).to_string()), // Memory in MB
+//             Span::raw(
+//                 get_cpu_core_for_pid(process.pid())
+//                     .map(|core| core.to_string())
+//                     .unwrap_or_else(|| "N/A".to_string()),
+//             ),
+//         ]));
+//     }
+
+//     rows
+// }
+
+// fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<TuiRow<'a>> {
+//     let mut rows = Vec::new();
+
+//     let loadavg = stat_sys.load_average().ok();
+//     let (one, five, fifteen) = if let Some(load) = loadavg {
+//         (load.one, load.five, load.fifteen)
+//     } else {
+//         (0.0, 0.0, 0.0)
+//     };
+
+//     let mut total_tasks = 0;
+//     let mut running = 0;
+//     let mut sleeping = 0;
+//     let mut stopped = 0;
+//     let mut zombie = 0;
+
+//     for process in system.processes() {
+//         let proc = process.1;
+//         total_tasks += 1;
+//         match proc.status() {
+//             sysinfo::ProcessStatus::Run => running += 1,
+//             sysinfo::ProcessStatus::Sleep => sleeping += 1,
+//             sysinfo::ProcessStatus::Stop => stopped += 1,
+//             sysinfo::ProcessStatus::Zombie => zombie += 1,
+//             _ => {}
+//         }
+//     }
+
+//     rows.push(TuiRow::new(vec![
+//         Span::styled(
+//             format!("Load Avg: {:.2}, {:.2}, {:.2}", one, five, fifteen),
+//             Style::default().add_modifier(Modifier::BOLD),
+//         ),
+//         Span::styled(
+//             format!("Total Tasks: {}", total_tasks),
+//             Style::default().add_modifier(Modifier::BOLD),
+//         ),
+//         Span::styled(
+//             format!("Running: {}", running),
+//             Style::default().add_modifier(Modifier::BOLD),
+//         ),
+//         Span::styled(
+//             format!("Sleeping: {}", sleeping),
+//             Style::default().add_modifier(Modifier::BOLD),
+//         ),
+//         Span::styled(
+//             format!("Stopped: {}", stopped),
+//             Style::default().add_modifier(Modifier::BOLD),
+//         ),
+//         Span::styled(
+//             format!("Zombie: {}", zombie),
+//             Style::default().add_modifier(Modifier::BOLD),
+//         ),
+//     ]));
+
+//     rows
+// }
+
+// fn options_table<'a>() -> Paragraph<'a> {
+//     let options_text = vec![Spans::from(vec![
+//         Span::styled("q: Quit", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::raw("  |  "),
+//         Span::styled("Up/Down: Navigate", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::raw("  |  "),
+//         Span::styled("t: Process Tree", Style::default().add_modifier(Modifier::BOLD)),
+//         Span::raw("  |  "),
+//         Span::styled("n: Change Niceness", Style::default().add_modifier(Modifier::BOLD)),
+//     ])];
+
+//     Paragraph::new(options_text).block(Block::default().borders(Borders::NONE))
+// }
+
+// pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
+//     let mut sysinfo = System::new_all();
+//     let stat_sys = StatSystem::new();
+//     let update_interval = Duration::from_secs(5);
+//     sysinfo.refresh_all();
+
+//     let stdout = stdout().into_raw_mode()?;
+//     let stdout = MouseTerminal::from(stdout);
+//     let stdout = AlternateScreen::from(stdout);
+//     let backend = TermionBackend::new(stdout);
+//     let mut terminal = Terminal::new(backend)?;
+
+//     let (tx, rx) = mpsc::channel();
+
+//     thread::spawn(move || {
+//         let stdin = std::io::stdin();
+//         for key in stdin.keys() {
+//             if let Ok(key) = key {
+//                 if tx.send(key).is_err() {
+//                     break;
+//                 }
+//             }
+//         }
+//     });
+
+//     let mut table_state = TableState::default();
+//     table_state.select(Some(0));
+//     let mut show_tree = false;
+//     let mut tree_output = Vec::new(); // Store process tree lines
+//     let mut tree_state = TableState::default(); // State for scrolling in process tree
+//     tree_state.select(Some(0)); // Initially select the first line
+
+//     loop {
+//         sysinfo.refresh_all();
+//         let stats_rows = update_system_stats(&sysinfo, &stat_sys);
+//         let process_rows = update_table(&sysinfo, &stat_sys);
+
+//         terminal.draw(|f| {
+//             let size = f.size();
+
+//             if show_tree {
+//                 let chunks = Layout::default()
+//                     .constraints([Constraint::Percentage(90), Constraint::Length(1)])
+//                     .split(size);
+
+//                 let start_index = tree_state.selected().unwrap_or(0);
+//                 let end_index = (start_index + chunks[0].height as usize).min(tree_output.len());
+//                 let visible_lines = &tree_output[start_index..end_index];
+
+//                 let tree_block = Paragraph::new(visible_lines.join("\n"))
+//                     .block(Block::default().borders(Borders::ALL).title("Process Tree"))
+//                     .wrap(Wrap { trim: true });
+//                 f.render_widget(tree_block, chunks[0]);
+
+//                 let options_block = options_table();
+//                 f.render_widget(options_block, chunks[1]);
+//             } else {
+//                 let chunks = Layout::default()
+//                     .constraints([
+//                         Constraint::Length(3),
+//                         Constraint::Percentage(85),
+//                         Constraint::Length(1),
+//                     ])
+//                     .split(size);
+
+//                 let stats_table = TuiTable::new(stats_rows)
+//                     .block(Block::default().borders(Borders::ALL).title("System Stats"))
+//                     .widths(&[
+//                         Constraint::Length(30), // Load Avg
+//                         Constraint::Length(20), // Total Tasks
+//                         Constraint::Length(15), // Running
+//                         Constraint::Length(15), // Sleeping
+//                         Constraint::Length(15), // Stopped
+//                         Constraint::Length(15), // Zombie
+//                     ]);
+//                 f.render_widget(stats_table, chunks[0]);
+
+//                 let process_table = TuiTable::new(process_rows.clone())
+//                     .block(Block::default().borders(Borders::ALL).title("Process Info"))
+//                     .highlight_style(Style::default().add_modifier(Modifier::REVERSED))
+//                     .widths(&[
+//                         Constraint::Length(20), // PID column
+//                         Constraint::Length(40), // NAME column
+//                         Constraint::Length(20), // STATUS column
+//                         Constraint::Length(20), // CPU % column
+//                         Constraint::Length(20), // MEMORY column
+//                         Constraint::Length(20), // CORE column
+//                     ]);
+//                 f.render_stateful_widget(process_table, chunks[1], &mut table_state);
+
+//                 let options_block = options_table();
+//                 f.render_widget(options_block, chunks[2]);
+//             }
+//         })?;
+
+//         if let Ok(key) = rx.recv_timeout(update_interval) {
+//             match key {
+//                 Key::Char('q') => {
+//                     break;
+//                 }
+//                 Key::Down => {
+//                     if show_tree {
+//                         let selected = tree_state.selected().unwrap_or(0);
+//                         if selected < tree_output.len() - 1 {
+//                             tree_state.select(Some(selected + 1));
+//                         }
+//                     } else {
+//                         next(&mut table_state, &process_rows);
+//                     }
+//                 }
+//                 Key::Up => {
+//                     if show_tree {
+//                         let selected = tree_state.selected().unwrap_or(0);
+//                         if selected > 0 {
+//                             tree_state.select(Some(selected - 1));
+//                         }
+//                     } else {
+//                         previous(&mut table_state, &process_rows);
+//                     }
+//                 }
+//                 Key::Char('t') => {
+//                     if show_tree {
+//                         show_tree = false;
+//                     } else {
+//                         let output = Command::new("pstree")
+//                             .arg("-p")
+//                             .output()
+//                             .expect("Failed to execute command");
+
+//                         if output.status.success() {
+//                             tree_output = String::from_utf8_lossy(&output.stdout)
+//                                 .lines()
+//                                 .map(|line| line.to_string())
+//                                 .collect();
+//                             tree_state.select(Some(0)); // Reset scroll to the top
+//                             show_tree = true;
+//                         } else {
+//                             let stderr = String::from_utf8_lossy(&output.stderr);
+//                             eprintln!("Error: {}", stderr);
+//                         }
+//                     }
+//                 }
+//                 Key::Char('n') => {
+//                     println!("Enter the PID of the process to change niceness:");
+//                     let stdin = stdin();
+//                     let mut input = String::new();
+//                     std::io::BufRead::read_line(&mut stdin.lock(), &mut input)?; // Explicit BufRead usage
+//                     let pid = input.trim().parse::<i32>();
+
+//                     if let Ok(pid) = pid {
+//                         println!("Enter the new niceness value (-20 to 19):");
+//                         input.clear();
+//                         std::io::BufRead::read_line(&mut stdin.lock(), &mut input)?; // Explicit BufRead usage
+//                         let niceness = input.trim().parse::<i32>();
+
+//                         if let Ok(niceness) = niceness {
+//                             println!("Attempting to change niceness for PID {} to {}", pid, niceness);
+
+//                             let output = Command::new("sudo")
+//                                 .arg("renice")
+//                                 .arg(niceness.to_string())
+//                                 .arg("-p")
+//                                 .arg(pid.to_string())
+//                                 .output();
+
+//                             match output {
+//                                 Ok(output) if output.status.success() => {
+//                                     println!(
+//                                         "Successfully changed niceness for PID {}. Output:\n{}",
+//                                         pid,
+//                                         String::from_utf8_lossy(&output.stdout)
+//                                     );
+//                                 }
+//                                 Ok(output) => {
+//                                     let error = String::from_utf8_lossy(&output.stderr);
+//                                     eprintln!("Failed to change niceness. Error:\n{}", error);
+//                                 }
+//                                 Err(err) => {
+//                                     eprintln!("Error executing renice command: {}", err);
+//                                 }
+//                             }
+//                         } else {
+//                             eprintln!("Invalid niceness value. Must be between -20 and 19.");
+//                         }
+//                     } else {
+//                         eprintln!("Invalid PID. Please enter a valid numeric PID.");
+//                     }
+//                 }
+//                 _ => {}
+//             }
+//         }
+//     }
+
+//     Ok(())
+// }
+
 use std::{
     fs,
     io::{self, stdin, stdout, BufRead, Write},
     process::Command,
-    sync::mpsc,
+    sync::{Arc, Mutex},
     thread,
     time::Duration,
 };
-use crossterm::{execute, terminal::{Clear, ClearType}, cursor};
-use sysinfo::{System, SystemExt, ProcessExt};
+use crossterm::{
+    execute, terminal::{Clear, ClearType},
+    cursor,
+};
+use sysinfo::{System, SystemExt, ProcessExt, ProcessorExt, ProcessStatus};
 use systemstat::{System as StatSystem, Platform};
 use tui::{
     backend::TermionBackend,
@@ -24,6 +390,25 @@ use termion::{
     event::Key,
 };
 
+use fltk::{
+    app::{self, App},
+    enums::Color,
+    draw::{draw_line, draw_text, set_draw_color, draw_rectf},
+    frame::Frame,
+    window::Window,
+};
+
+use std::sync::mpsc::{self, Sender};
+
+// Import FLTK prelude to bring trait methods into scope
+use fltk::prelude::*;
+use std::rc::Rc;
+use std::cell::RefCell;
+
+// Define a type alias for shared CPU data
+type CpuData = Arc<Mutex<Vec<Vec<f32>>>>; // Outer Vec for time steps, inner Vec for cores
+
+// Helper function to navigate to the next table row
 pub fn next(state: &mut TableState, items: &Vec<TuiRow>) {
     let i = match state.selected() {
         Some(i) => {
@@ -38,6 +423,7 @@ pub fn next(state: &mut TableState, items: &Vec<TuiRow>) {
     state.select(Some(i));
 }
 
+// Helper function to navigate to the previous table row
 pub fn previous(state: &mut TableState, items: &Vec<TuiRow>) {
     let i = match state.selected() {
         Some(i) => {
@@ -52,6 +438,7 @@ pub fn previous(state: &mut TableState, items: &Vec<TuiRow>) {
     state.select(Some(i));
 }
 
+// Function to get CPU core for a given PID by parsing /proc/[pid]/stat
 fn get_cpu_core_for_pid(pid: i32) -> Option<i32> {
     let stat_path = format!("/proc/{}/stat", pid);
     if let Ok(stat_content) = fs::read_to_string(stat_path) {
@@ -63,9 +450,11 @@ fn get_cpu_core_for_pid(pid: i32) -> Option<i32> {
     None
 }
 
+// Function to update the process table
 fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow<'a>> {
     let mut rows = Vec::new();
 
+    // Header row
     rows.push(TuiRow::new(vec![
         Span::styled("PID", Style::default().add_modifier(Modifier::BOLD)),
         Span::styled("NAME", Style::default().add_modifier(Modifier::BOLD)),
@@ -75,6 +464,7 @@ fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow
         Span::styled("CORE", Style::default().add_modifier(Modifier::BOLD)),
     ]));
 
+    // Populate process rows
     for (pid, process) in system.processes() {
         rows.push(TuiRow::new(vec![
             Span::raw(pid.to_string()),
@@ -93,9 +483,11 @@ fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow
     rows
 }
 
+// Function to update system statistics
 fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<TuiRow<'a>> {
     let mut rows = Vec::new();
 
+    // Retrieve load averages
     let loadavg = stat_sys.load_average().ok();
     let (one, five, fifteen) = if let Some(load) = loadavg {
         (load.one, load.five, load.fifteen)
@@ -103,24 +495,27 @@ fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<
         (0.0, 0.0, 0.0)
     };
 
+    // Initialize counters
     let mut total_tasks = 0;
     let mut running = 0;
     let mut sleeping = 0;
     let mut stopped = 0;
     let mut zombie = 0;
 
+    // Count process statuses
     for process in system.processes() {
         let proc = process.1;
         total_tasks += 1;
         match proc.status() {
-            sysinfo::ProcessStatus::Run => running += 1,
-            sysinfo::ProcessStatus::Sleep => sleeping += 1,
-            sysinfo::ProcessStatus::Stop => stopped += 1,
-            sysinfo::ProcessStatus::Zombie => zombie += 1,
+            ProcessStatus::Run => running += 1,
+            ProcessStatus::Sleep => sleeping += 1,
+            ProcessStatus::Stop => stopped += 1,
+            ProcessStatus::Zombie => zombie += 1,
             _ => {}
         }
     }
 
+    // Populate stats row
     rows.push(TuiRow::new(vec![
         Span::styled(
             format!("Load Avg: {:.2}, {:.2}, {:.2}", one, five, fifteen),
@@ -151,6 +546,7 @@ fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<
     rows
 }
 
+// Function to create the options table
 fn options_table<'a>() -> Paragraph<'a> {
     let options_text = vec![Spans::from(vec![
         Span::styled("q: Quit", Style::default().add_modifier(Modifier::BOLD)),
@@ -165,12 +561,133 @@ fn options_table<'a>() -> Paragraph<'a> {
     Paragraph::new(options_text).block(Block::default().borders(Borders::NONE))
 }
 
+// Function to retrieve CPU usages using sysinfo 0.22
+fn get_cpu_usages(system: &System) -> Vec<f32> {
+    system.processors().iter().map(|cpu| cpu.cpu_usage()).collect()
+}
+
+// Function to plot CPU usage using FLTK (Adjusted to display a bar chart)
+fn plot_cpu_usage(cpu_data: CpuData, num_cores: usize) {
+    // Initialize the FLTK application
+    let app = App::default().with_scheme(app::Scheme::Gleam);
+    let mut wind = Window::new(100, 100, 800, 600, "CPU Utilization");
+
+    // Wrap the Frame in Rc<RefCell<Frame>>
+    let frame = Rc::new(RefCell::new(Frame::new(0, 0, 800, 600, "")));
+
+    wind.end();
+    wind.show();
+
+    // Clone the Rc to move into the closure for redrawing
+    let frame_clone = Rc::clone(&frame);
+    
+    // app::add_timeout3(7.0, move |_| {
+    //     frame_clone.borrow_mut().redraw();
+    // }); 
+    app::add_timeout3(3.0, move |t| {
+        // Redraw the frame
+        frame_clone.borrow_mut().redraw();
+    
+        // Reschedule the timeout for continuous updates
+        app::repeat_timeout3(3.0, t);
+    });
+    
+    // Clone the Rc again for the draw closure
+    let frame_clone_draw = Rc::clone(&frame);
+    frame.borrow_mut().draw(move |f| {
+        let data = cpu_data.lock().unwrap();
+        let width = f.width();
+        let height = f.height();
+        let margin = 50;
+        let plot_width = width - 2 * margin;
+        let plot_height = height - 2 * margin;
+     
+        // Clear the background
+        set_draw_color(Color::Black);
+        fltk::draw::draw_rectf(0, 0, width, height);
+
+        // Draw x-axis
+        set_draw_color(Color::White);
+        draw_line(margin, height - margin, width - margin, height - margin); // X-axis
+
+        // Get the latest CPU usage data
+        let latest_data = data.last().cloned().unwrap_or_else(|| vec![0.0; num_cores]);
+
+        // Define bar properties
+        let bar_spacing = 10;
+        let total_bar_width = plot_width - (num_cores as i32 - 1) * bar_spacing;
+        let bar_width = total_bar_width / num_cores as i32;
+
+        // Adjust bar_width if it's too small or negative
+        let bar_width = if bar_width > 0 { bar_width } else { 1 };
+
+        let max_cpu = 100.0; // CPU usage percentage
+
+        // Loop over cores to draw bars
+        for (i, &cpu_usage) in latest_data.iter().enumerate() {
+
+            // Clamp CPU usage to 0-100%
+            let cpu_usage = if cpu_usage > max_cpu {
+                max_cpu
+            } else if cpu_usage < 0.0 {
+                0.0
+            } else {
+                cpu_usage
+            };
+
+            set_draw_color(Color::Green);
+
+            // Calculate bar dimensions
+            let x = margin + i as i32 * (bar_width + bar_spacing);
+            let bar_height = ((cpu_usage / max_cpu) * plot_height as f32) as i32;
+            let y = height - margin - bar_height;
+
+            // Draw the bar
+            draw_rectf(x, y, bar_width, bar_height);
+
+            // Draw the usage percentage over the bar
+            let usage_text = format!("{:.1}%", cpu_usage);
+            set_draw_color(Color::White);
+            // Calculate text position (centered)
+            let text_x = x + bar_width / 2 - (usage_text.len() as i32 * 3) / 2;
+            let text_y = y - 10; // 10 pixels above the bar
+            draw_text(&usage_text, text_x, text_y);
+
+            // Label the bar from underneath with core number
+            let core_label = format!("Core {}", i);
+            // Calculate label position (centered)
+            let label_x = x + bar_width / 2 - (core_label.len() as i32 * 3) / 2;
+            let label_y = height - margin + 20; // 20 pixels below the x-axis
+            draw_text(&core_label, label_x, label_y);
+        }
+      
+    
+    });
+
+    // Run the FLTK application
+    app.run().unwrap();
+}
+
+// Function to display process info using terminal UI and FLTK plot
 pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
     let mut sysinfo = System::new_all();
     let stat_sys = StatSystem::new();
-    let update_interval = Duration::from_secs(5);
+    let update_interval = Duration::from_secs(5); // 1-second update interval for smoother plots
     sysinfo.refresh_all();
+    thread::sleep(Duration::from_secs(2));
+    // Shared CPU data structure
+    let cpu_data: CpuData = Arc::new(Mutex::new(Vec::new()));
+    let cpu_data_clone = Arc::clone(&cpu_data);
 
+    // Determine the number of CPU cores
+    let num_cores = sysinfo.processors().len();
+
+    // Start the plotting thread
+    std::thread::spawn(move || {
+        plot_cpu_usage(cpu_data_clone, num_cores);
+    });
+
+    // Setup terminal UI
     let stdout = stdout().into_raw_mode()?;
     let stdout = MouseTerminal::from(stdout);
     let stdout = AlternateScreen::from(stdout);
@@ -179,8 +696,9 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
 
     let (tx, rx) = mpsc::channel();
 
+    // Spawn a thread to capture keyboard events
     thread::spawn(move || {
-        let stdin = std::io::stdin();
+        let stdin = io::stdin();
         for key in stdin.keys() {
             if let Ok(key) = key {
                 if tx.send(key).is_err() {
@@ -198,7 +716,19 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
     tree_state.select(Some(0)); // Initially select the first line
 
     loop {
-        sysinfo.refresh_all();
+        sysinfo.refresh_all(); // Refresh all system information
+
+        // Update shared CPU data
+        {
+            let mut data = cpu_data.lock().unwrap();
+            let cpu_usages = get_cpu_usages(&sysinfo);
+            data.push(cpu_usages);
+            // Limit the data to the latest entry
+            if data.len() > 1 {
+                data.remove(0);
+            }
+        }
+
         let stats_rows = update_system_stats(&sysinfo, &stat_sys);
         let process_rows = update_table(&sysinfo, &stat_sys);
 
@@ -260,6 +790,7 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
             }
         })?;
 
+        // Handle user input
         if let Ok(key) = rx.recv_timeout(update_interval) {
             match key {
                 Key::Char('q') => {
@@ -292,7 +823,7 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
                         let output = Command::new("pstree")
                             .arg("-p")
                             .output()
-                            .expect("Failed to execute command");
+                            .expect("Failed to execute pstree command");
 
                         if output.status.success() {
                             tree_output = String::from_utf8_lossy(&output.stdout)
@@ -303,7 +834,7 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
                             show_tree = true;
                         } else {
                             let stderr = String::from_utf8_lossy(&output.stderr);
-                            eprintln!("Error: {}", stderr);
+                            eprintln!("Error executing pstree: {}", stderr);
                         }
                     }
                 }
