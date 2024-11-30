@@ -400,15 +400,15 @@ use fltk::{
 
 use std::sync::mpsc::{self, Sender};
 
-// Import FLTK prelude to bring trait methods into scope
+
 use fltk::prelude::*;
 use std::rc::Rc;
 use std::cell::RefCell;
 
-// Define a type alias for shared CPU data
-type CpuData = Arc<Mutex<Vec<Vec<f32>>>>; // Outer Vec for time steps, inner Vec for cores
 
-// Helper function to navigate to the next table row
+type CpuData = Arc<Mutex<Vec<Vec<f32>>>>; 
+
+
 pub fn next(state: &mut TableState, items: &Vec<TuiRow>) {
     let i = match state.selected() {
         Some(i) => {
@@ -423,7 +423,7 @@ pub fn next(state: &mut TableState, items: &Vec<TuiRow>) {
     state.select(Some(i));
 }
 
-// Helper function to navigate to the previous table row
+
 pub fn previous(state: &mut TableState, items: &Vec<TuiRow>) {
     let i = match state.selected() {
         Some(i) => {
@@ -438,7 +438,7 @@ pub fn previous(state: &mut TableState, items: &Vec<TuiRow>) {
     state.select(Some(i));
 }
 
-// Function to get CPU core for a given PID by parsing /proc/[pid]/stat
+
 fn get_cpu_core_for_pid(pid: i32) -> Option<i32> {
     let stat_path = format!("/proc/{}/stat", pid);
     if let Ok(stat_content) = fs::read_to_string(stat_path) {
@@ -450,7 +450,7 @@ fn get_cpu_core_for_pid(pid: i32) -> Option<i32> {
     None
 }
 
-// Function to update the process table
+
 fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow<'a>> {
     let mut rows = Vec::new();
 
@@ -464,7 +464,7 @@ fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow
         Span::styled("CORE", Style::default().add_modifier(Modifier::BOLD)),
     ]));
 
-    // Populate process rows
+
     for (pid, process) in system.processes() {
         rows.push(TuiRow::new(vec![
             Span::raw(pid.to_string()),
@@ -483,11 +483,10 @@ fn update_table<'a>(system: &'a System, _stat_sys: &'a StatSystem) -> Vec<TuiRow
     rows
 }
 
-// Function to update system statistics
+
 fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<TuiRow<'a>> {
     let mut rows = Vec::new();
 
-    // Retrieve load averages
     let loadavg = stat_sys.load_average().ok();
     let (one, five, fifteen) = if let Some(load) = loadavg {
         (load.one, load.five, load.fifteen)
@@ -495,14 +494,13 @@ fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<
         (0.0, 0.0, 0.0)
     };
 
-    // Initialize counters
     let mut total_tasks = 0;
     let mut running = 0;
     let mut sleeping = 0;
     let mut stopped = 0;
     let mut zombie = 0;
 
-    // Count process statuses
+
     for process in system.processes() {
         let proc = process.1;
         total_tasks += 1;
@@ -515,7 +513,7 @@ fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<
         }
     }
 
-    // Populate stats row
+    
     rows.push(TuiRow::new(vec![
         Span::styled(
             format!("Load Avg: {:.2}, {:.2}, {:.2}", one, five, fifteen),
@@ -546,7 +544,7 @@ fn update_system_stats<'a>(system: &'a System, stat_sys: &'a StatSystem) -> Vec<
     rows
 }
 
-// Function to create the options table
+
 fn options_table<'a>() -> Paragraph<'a> {
     let options_text = vec![Spans::from(vec![
         Span::styled("q: Quit", Style::default().add_modifier(Modifier::BOLD)),
@@ -561,38 +559,34 @@ fn options_table<'a>() -> Paragraph<'a> {
     Paragraph::new(options_text).block(Block::default().borders(Borders::NONE))
 }
 
-// Function to retrieve CPU usages using sysinfo 0.22
+
 fn get_cpu_usages(system: &System) -> Vec<f32> {
     system.processors().iter().map(|cpu| cpu.cpu_usage()).collect()
 }
 
-// Function to plot CPU usage using FLTK (Adjusted to display a bar chart)
+
 fn plot_cpu_usage(cpu_data: CpuData, num_cores: usize) {
-    // Initialize the FLTK application
+
     let app = App::default().with_scheme(app::Scheme::Gleam);
     let mut wind = Window::new(100, 100, 800, 600, "CPU Utilization");
 
-    // Wrap the Frame in Rc<RefCell<Frame>>
     let frame = Rc::new(RefCell::new(Frame::new(0, 0, 800, 600, "")));
 
     wind.end();
     wind.show();
 
-    // Clone the Rc to move into the closure for redrawing
+   
     let frame_clone = Rc::clone(&frame);
-    
-    // app::add_timeout3(7.0, move |_| {
-    //     frame_clone.borrow_mut().redraw();
-    // }); 
+   
     app::add_timeout3(3.0, move |t| {
-        // Redraw the frame
+    
         frame_clone.borrow_mut().redraw();
     
-        // Reschedule the timeout for continuous updates
+
         app::repeat_timeout3(3.0, t);
     });
     
-    // Clone the Rc again for the draw closure
+   
     let frame_clone_draw = Rc::clone(&frame);
     frame.borrow_mut().draw(move |f| {
         let data = cpu_data.lock().unwrap();
@@ -664,15 +658,13 @@ fn plot_cpu_usage(cpu_data: CpuData, num_cores: usize) {
     
     });
 
-    // Run the FLTK application
     app.run().unwrap();
 }
 
-// Function to display process info using terminal UI and FLTK plot
 pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
     let mut sysinfo = System::new_all();
     let stat_sys = StatSystem::new();
-    let update_interval = Duration::from_secs(5); // 1-second update interval for smoother plots
+    let update_interval = Duration::from_secs(5);
     sysinfo.refresh_all();
     thread::sleep(Duration::from_secs(2));
     // Shared CPU data structure
@@ -842,13 +834,13 @@ pub fn display_process_info() -> Result<(), Box<dyn std::error::Error>> {
                     println!("Enter the PID of the process to change niceness:");
                     let stdin = stdin();
                     let mut input = String::new();
-                    std::io::BufRead::read_line(&mut stdin.lock(), &mut input)?; // Explicit BufRead usage
+                    std::io::BufRead::read_line(&mut stdin.lock(), &mut input)?; 
                     let pid = input.trim().parse::<i32>();
 
                     if let Ok(pid) = pid {
                         println!("Enter the new niceness value (-20 to 19):");
                         input.clear();
-                        std::io::BufRead::read_line(&mut stdin.lock(), &mut input)?; // Explicit BufRead usage
+                        std::io::BufRead::read_line(&mut stdin.lock(), &mut input)?; 
                         let niceness = input.trim().parse::<i32>();
 
                         if let Ok(niceness) = niceness {
