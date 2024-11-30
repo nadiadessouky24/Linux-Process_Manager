@@ -1,17 +1,17 @@
 Determining if files alsa/asoundlib.h exist failed with the following output:
 Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b92ec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b92ec.dir/build.make CMakeFiles/cmTC_b92ec.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd9b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd9b1.dir/build.make CMakeFiles/cmTC_dd9b1.dir/build
 gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b92ec.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_b92ec.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ALSA_ASOUNDLIB_H.c
+Building C object CMakeFiles/cmTC_dd9b1.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_dd9b1.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ALSA_ASOUNDLIB_H.c
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ALSA_ASOUNDLIB_H.c:2:10: fatal error: alsa/asoundlib.h: No such file or directory
     2 | #include <alsa/asoundlib.h>
       |          ^~~~~~~~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_b92ec.dir/build.make:78: CMakeFiles/cmTC_b92ec.dir/HAVE_ALSA_ASOUNDLIB_H.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_dd9b1.dir/build.make:78: CMakeFiles/cmTC_dd9b1.dir/HAVE_ALSA_ASOUNDLIB_H.c.o] Error 1
 gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_b92ec/fast] Error 2
+gmake: *** [Makefile:127: cmTC_dd9b1/fast] Error 2
 
 
 Source:
@@ -24,17 +24,17 @@ int main(void){return 0;}
 Determining if files OpenGL/glu.h exist failed with the following output:
 Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc526/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc526.dir/build.make CMakeFiles/cmTC_bc526.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4820/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4820.dir/build.make CMakeFiles/cmTC_b4820.dir/build
 gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bc526.dir/HAVE_OPENGL_GLU_H.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_bc526.dir/HAVE_OPENGL_GLU_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c
+Building C object CMakeFiles/cmTC_b4820.dir/HAVE_OPENGL_GLU_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_b4820.dir/HAVE_OPENGL_GLU_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
     2 | #include <OpenGL/glu.h>
       |          ^~~~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_bc526.dir/build.make:78: CMakeFiles/cmTC_bc526.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_b4820.dir/build.make:78: CMakeFiles/cmTC_b4820.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
 gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_bc526/fast] Error 2
+gmake: *** [Makefile:127: cmTC_b4820/fast] Error 2
 
 
 Source:
@@ -47,17 +47,17 @@ int main(void){return 0;}
 Determining if files sys/stdtypes.h exist failed with the following output:
 Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66354/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66354.dir/build.make CMakeFiles/cmTC_66354.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bea7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bea7d.dir/build.make CMakeFiles/cmTC_bea7d.dir/build
 gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66354.dir/HAVE_SYS_STDTYPES_H.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_66354.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STDTYPES_H.c
+Building C object CMakeFiles/cmTC_bea7d.dir/HAVE_SYS_STDTYPES_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_bea7d.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STDTYPES_H.c
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STDTYPES_H.c:2:10: fatal error: sys/stdtypes.h: No such file or directory
     2 | #include <sys/stdtypes.h>
       |          ^~~~~~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_66354.dir/build.make:78: CMakeFiles/cmTC_66354.dir/HAVE_SYS_STDTYPES_H.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_bea7d.dir/build.make:78: CMakeFiles/cmTC_bea7d.dir/HAVE_SYS_STDTYPES_H.c.o] Error 1
 gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_66354/fast] Error 2
+gmake: *** [Makefile:127: cmTC_bea7d/fast] Error 2
 
 
 Source:
@@ -70,19 +70,19 @@ int main(void){return 0;}
 Determining if the strlcat exist failed with the following output:
 Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4795/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4795.dir/build.make CMakeFiles/cmTC_c4795.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5bba5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5bba5.dir/build.make CMakeFiles/cmTC_5bba5.dir/build
 gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c4795.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_c4795.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_5bba5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_5bba5.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
     8 |   return ((int*)(&strlcat))[argc];
       |                   ^~~~~~~
       |                   strncat
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_c4795.dir/build.make:78: CMakeFiles/cmTC_c4795.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_5bba5.dir/build.make:78: CMakeFiles/cmTC_5bba5.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_c4795/fast] Error 2
+gmake: *** [Makefile:127: cmTC_5bba5/fast] Error 2
 
 
 File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -102,19 +102,19 @@ int main(int argc, char** argv)
 Determining if the strlcpy exist failed with the following output:
 Change Dir: /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90189/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90189.dir/build.make CMakeFiles/cmTC_90189.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c854/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c854.dir/build.make CMakeFiles/cmTC_3c854.dir/build
 gmake[1]: Entering directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_90189.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_90189.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_3c854.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_3c854.dir/CheckSymbolExists.c.o -c /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
     8 |   return ((int*)(&strlcpy))[argc];
       |                   ^~~~~~~
       |                   strncpy
 /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_90189.dir/build.make:78: CMakeFiles/cmTC_90189.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_3c854.dir/build.make:78: CMakeFiles/cmTC_3c854.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_90189/fast] Error 2
+gmake: *** [Makefile:127: cmTC_3c854/fast] Error 2
 
 
 File /home/moh04/my_code/demo/OS-Project/processManager/target/debug/build/fltk-sys-d64bd3a80a8ecfe6/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
