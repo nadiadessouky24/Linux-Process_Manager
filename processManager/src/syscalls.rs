@@ -11,7 +11,7 @@ use fltk::{
     text::TextBuffer,
     enums::{Color, FrameType},
 };
-use crate::ctrlc_handler::RUNNING;
+use crate::common::RUNNING;
 use std::sync::atomic::Ordering;
 use crate::input;
 

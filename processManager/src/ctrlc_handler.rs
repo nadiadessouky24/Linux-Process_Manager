@@ -1,14 +1,15 @@
-use std::sync::{atomic::{AtomicBool, Ordering}, Arc};
-use ctrlc;
+use std::sync::atomic::{AtomicBool, Ordering};
 use once_cell::sync::Lazy;
-use std::{thread, time::Duration};
 
-pub static RUNNING: Lazy<Arc<AtomicBool>> = Lazy::new(|| Arc::new(AtomicBool::new(true)));
+pub static RUNNING: Lazy<AtomicBool> = Lazy::new(|| AtomicBool::new(true));
+
+pub fn setup_ctrlc_handler() -> Result<(), Box<dyn std::error::Error>> {
+    ctrlc::set_handler(move || {
+        RUNNING.store(false, Ordering::SeqCst);
+    })?;
+    Ok(())
+}
 
 pub fn exiting_loop() {
-    let running = Arc::clone(&*RUNNING);
-    ctrlc::set_handler(move || {
-        running.store(false, Ordering::SeqCst);
-        
-    }).expect("Error setting CTRL-C handler");
+    RUNNING.store(false, Ordering::SeqCst);
 }

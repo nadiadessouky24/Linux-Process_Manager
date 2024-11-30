@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/nour/OS-Project/processM
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e8d9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e8d9.dir/build.make CMakeFiles/cmTC_0e8d9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1d8f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d8f4.dir/build.make CMakeFiles/cmTC_1d8f4.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e8d9.dir/testCCompiler.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_0e8d9.dir/testCCompiler.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0e8d9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e8d9.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_0e8d9.dir/testCCompiler.c.o  -o cmTC_0e8d9 
+Building C object CMakeFiles/cmTC_1d8f4.dir/testCCompiler.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_1d8f4.dir/testCCompiler.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1d8f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d8f4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_1d8f4.dir/testCCompiler.c.o  -o cmTC_1d8f4 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9858e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9858e.dir/build.make CMakeFiles/cmTC_9858e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a0bca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0bca.dir/build.make CMakeFiles/cmTC_a0bca.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_9858e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9858e.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o  -o cmTC_9858e 
+Building C object CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a0bca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0bca.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o  -o cmTC_a0bca 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_9858e' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCCw12U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9858e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_9858e' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_a0bca' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCdxAv6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0bca /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_a0bca' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9858e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9858e.dir/build.make CMakeFiles/cmTC_9858e.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a0bca/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a0bca.dir/build.make CMakeFiles/cmTC_a0bca.dir/build]
   ignore line: [make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_9858e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9858e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o  -o cmTC_9858e ]
+  ignore line: [Building C object CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a0bca]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0bca.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o  -o cmTC_a0bca ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_9858e' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCCw12U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9858e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_a0bca' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCdxAv6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0bca /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccCCw12U.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCdxAv6.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9858e] ==> ignore
+    arg [cmTC_a0bca] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_9858e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a0bca.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff1ec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ff1ec.dir/build.make CMakeFiles/cmTC_ff1ec.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_97b73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97b73.dir/build.make CMakeFiles/cmTC_97b73.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ff1ec.dir/feature_tests.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -std=c11 -o CMakeFiles/cmTC_ff1ec.dir/feature_tests.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ff1ec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff1ec.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_ff1ec.dir/feature_tests.c.o  -o cmTC_ff1ec 
+Building C object CMakeFiles/cmTC_97b73.dir/feature_tests.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -std=c11 -o CMakeFiles/cmTC_97b73.dir/feature_tests.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_97b73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b73.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_97b73.dir/feature_tests.c.o  -o cmTC_97b73 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_35240/fast"
-/usr/bin/make -f CMakeFiles/cmTC_35240.dir/build.make CMakeFiles/cmTC_35240.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c86b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c86b5.dir/build.make CMakeFiles/cmTC_c86b5.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_35240.dir/feature_tests.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -std=c99 -o CMakeFiles/cmTC_35240.dir/feature_tests.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_35240
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35240.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_35240.dir/feature_tests.c.o  -o cmTC_35240 
+Building C object CMakeFiles/cmTC_c86b5.dir/feature_tests.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -std=c99 -o CMakeFiles/cmTC_c86b5.dir/feature_tests.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c86b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c86b5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_c86b5.dir/feature_tests.c.o  -o cmTC_c86b5 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa4ce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa4ce.dir/build.make CMakeFiles/cmTC_aa4ce.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4e59b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e59b.dir/build.make CMakeFiles/cmTC_4e59b.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa4ce.dir/feature_tests.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -std=c90 -o CMakeFiles/cmTC_aa4ce.dir/feature_tests.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_aa4ce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4ce.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_aa4ce.dir/feature_tests.c.o  -o cmTC_aa4ce 
+Building C object CMakeFiles/cmTC_4e59b.dir/feature_tests.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -std=c90 -o CMakeFiles/cmTC_4e59b.dir/feature_tests.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4e59b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e59b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_4e59b.dir/feature_tests.c.o  -o cmTC_4e59b 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44e3c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44e3c.dir/build.make CMakeFiles/cmTC_44e3c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bc0d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc0d6.dir/build.make CMakeFiles/cmTC_bc0d6.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44e3c.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_44e3c.dir/testCXXCompiler.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_44e3c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44e3c.dir/link.txt --verbose=1
-/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_44e3c.dir/testCXXCompiler.cxx.o  -o cmTC_44e3c 
+Building CXX object CMakeFiles/cmTC_bc0d6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_bc0d6.dir/testCXXCompiler.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bc0d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc0d6.dir/link.txt --verbose=1
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_bc0d6.dir/testCXXCompiler.cxx.o  -o cmTC_bc0d6 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2393f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2393f.dir/build.make CMakeFiles/cmTC_2393f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6f387/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f387.dir/build.make CMakeFiles/cmTC_6f387.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2393f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2393f.dir/link.txt --verbose=1
-/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2393f 
+Building CXX object CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6f387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f387.dir/link.txt --verbose=1
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6f387 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_2393f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjWeMp9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2393f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_2393f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_6f387' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Giu8y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6f387 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_6f387' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2393f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2393f.dir/build.make CMakeFiles/cmTC_2393f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6f387/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6f387.dir/build.make CMakeFiles/cmTC_6f387.dir/build]
   ignore line: [make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2393f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2393f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2393f ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6f387]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f387.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -rdynamic CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6f387 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_2393f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjWeMp9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2393f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_6f387' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Giu8y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6f387 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjWeMp9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3Giu8y.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2393f] ==> ignore
+    arg [cmTC_6f387] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_2393f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_6f387.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4803/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4803.dir/build.make CMakeFiles/cmTC_c4803.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e52ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e52ab.dir/build.make CMakeFiles/cmTC_e52ab.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c4803.dir/feature_tests.cxx.o
-/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++1z -o CMakeFiles/cmTC_c4803.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c4803
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4803.dir/link.txt --verbose=1
-/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_c4803.dir/feature_tests.cxx.o  -o cmTC_c4803 
+Building CXX object CMakeFiles/cmTC_e52ab.dir/feature_tests.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++1z -o CMakeFiles/cmTC_e52ab.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e52ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e52ab.dir/link.txt --verbose=1
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_e52ab.dir/feature_tests.cxx.o  -o cmTC_e52ab 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cbedb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cbedb.dir/build.make CMakeFiles/cmTC_cbedb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_406f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_406f2.dir/build.make CMakeFiles/cmTC_406f2.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cbedb.dir/feature_tests.cxx.o
-/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++14 -o CMakeFiles/cmTC_cbedb.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cbedb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbedb.dir/link.txt --verbose=1
-/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_cbedb.dir/feature_tests.cxx.o  -o cmTC_cbedb 
+Building CXX object CMakeFiles/cmTC_406f2.dir/feature_tests.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++14 -o CMakeFiles/cmTC_406f2.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_406f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_406f2.dir/link.txt --verbose=1
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_406f2.dir/feature_tests.cxx.o  -o cmTC_406f2 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1034c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1034c.dir/build.make CMakeFiles/cmTC_1034c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b80ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b80ac.dir/build.make CMakeFiles/cmTC_b80ac.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1034c.dir/feature_tests.cxx.o
-/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++11 -o CMakeFiles/cmTC_1034c.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1034c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1034c.dir/link.txt --verbose=1
-/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_1034c.dir/feature_tests.cxx.o  -o cmTC_1034c 
+Building CXX object CMakeFiles/cmTC_b80ac.dir/feature_tests.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++11 -o CMakeFiles/cmTC_b80ac.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b80ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b80ac.dir/link.txt --verbose=1
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_b80ac.dir/feature_tests.cxx.o  -o cmTC_b80ac 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb54c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb54c.dir/build.make CMakeFiles/cmTC_bb54c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6d935/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d935.dir/build.make CMakeFiles/cmTC_6d935.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bb54c.dir/feature_tests.cxx.o
-/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++98 -o CMakeFiles/cmTC_bb54c.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bb54c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb54c.dir/link.txt --verbose=1
-/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_bb54c.dir/feature_tests.cxx.o  -o cmTC_bb54c 
+Building CXX object CMakeFiles/cmTC_6d935.dir/feature_tests.cxx.o
+/usr/bin/c++    -ffunction-sections -fdata-sections -fPIC -m64    -std=c++98 -o CMakeFiles/cmTC_6d935.dir/feature_tests.cxx.o -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6d935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d935.dir/link.txt --verbose=1
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_6d935.dir/feature_tests.cxx.o  -o cmTC_6d935 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
@@ -634,70 +634,70 @@ make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/bu
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2776/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2776.dir/build.make CMakeFiles/cmTC_a2776.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8c0bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c0bb.dir/build.make CMakeFiles/cmTC_8c0bb.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2776.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_a2776.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a2776
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2776.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_a2776.dir/CheckIncludeFile.c.o  -o cmTC_a2776 
+Building C object CMakeFiles/cmTC_8c0bb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_8c0bb.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8c0bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c0bb.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_8c0bb.dir/CheckIncludeFile.c.o  -o cmTC_8c0bb 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a4a8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a4a8.dir/build.make CMakeFiles/cmTC_0a4a8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_46fc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46fc4.dir/build.make CMakeFiles/cmTC_46fc4.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a4a8.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_0a4a8.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_0a4a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a4a8.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_0a4a8.dir/CheckIncludeFile.c.o  -o cmTC_0a4a8 
+Building C object CMakeFiles/cmTC_46fc4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_46fc4.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_46fc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46fc4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_46fc4.dir/CheckIncludeFile.c.o  -o cmTC_46fc4 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21747/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21747.dir/build.make CMakeFiles/cmTC_21747.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6408b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6408b.dir/build.make CMakeFiles/cmTC_6408b.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21747.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_21747.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_21747
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21747.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_21747.dir/CheckIncludeFile.c.o  -o cmTC_21747 
+Building C object CMakeFiles/cmTC_6408b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_6408b.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6408b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6408b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_6408b.dir/CheckIncludeFile.c.o  -o cmTC_6408b 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of unsigned short passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc96b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc96b.dir/build.make CMakeFiles/cmTC_fc96b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_28177/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28177.dir/build.make CMakeFiles/cmTC_28177.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc96b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_fc96b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTC_fc96b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc96b.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_fc96b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_fc96b 
+Building C object CMakeFiles/cmTC_28177.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_28177.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_28177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28177.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_28177.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_28177 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the system is big endian passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71185/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71185.dir/build.make CMakeFiles/cmTC_71185.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_51a8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51a8c.dir/build.make CMakeFiles/cmTC_51a8c.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71185.dir/TestEndianess.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_71185.dir/TestEndianess.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_71185
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71185.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_71185.dir/TestEndianess.c.o  -o cmTC_71185 
+Building C object CMakeFiles/cmTC_51a8c.dir/TestEndianess.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_51a8c.dir/TestEndianess.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_51a8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51a8c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_51a8c.dir/TestEndianess.c.o  -o cmTC_51a8c 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
@@ -729,418 +729,418 @@ int main(int argc, char *argv[])
 Determining size of short passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9522a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9522a.dir/build.make CMakeFiles/cmTC_9522a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7c763/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c763.dir/build.make CMakeFiles/cmTC_7c763.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9522a.dir/SIZEOF_SHORT.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_9522a.dir/SIZEOF_SHORT.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
-Linking C executable cmTC_9522a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9522a.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_9522a.dir/SIZEOF_SHORT.c.o  -o cmTC_9522a 
+Building C object CMakeFiles/cmTC_7c763.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_7c763.dir/SIZEOF_SHORT.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_7c763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c763.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_7c763.dir/SIZEOF_SHORT.c.o  -o cmTC_7c763 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of int passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_acaaa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_acaaa.dir/build.make CMakeFiles/cmTC_acaaa.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cafc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cafc8.dir/build.make CMakeFiles/cmTC_cafc8.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_acaaa.dir/SIZEOF_INT.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_acaaa.dir/SIZEOF_INT.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
-Linking C executable cmTC_acaaa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acaaa.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_acaaa.dir/SIZEOF_INT.c.o  -o cmTC_acaaa 
+Building C object CMakeFiles/cmTC_cafc8.dir/SIZEOF_INT.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_cafc8.dir/SIZEOF_INT.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_cafc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cafc8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_cafc8.dir/SIZEOF_INT.c.o  -o cmTC_cafc8 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of long passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c3cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c3cd.dir/build.make CMakeFiles/cmTC_4c3cd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5dd8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dd8b.dir/build.make CMakeFiles/cmTC_5dd8b.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c3cd.dir/SIZEOF_LONG.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_4c3cd.dir/SIZEOF_LONG.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
-Linking C executable cmTC_4c3cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c3cd.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_4c3cd.dir/SIZEOF_LONG.c.o  -o cmTC_4c3cd 
+Building C object CMakeFiles/cmTC_5dd8b.dir/SIZEOF_LONG.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_5dd8b.dir/SIZEOF_LONG.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_5dd8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dd8b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_5dd8b.dir/SIZEOF_LONG.c.o  -o cmTC_5dd8b 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of long long passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7eae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e7eae.dir/build.make CMakeFiles/cmTC_e7eae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a7372/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7372.dir/build.make CMakeFiles/cmTC_a7372.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e7eae.dir/HAVE_LONG_LONG.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_e7eae.dir/HAVE_LONG_LONG.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/HAVE_LONG_LONG.c
-Linking C executable cmTC_e7eae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7eae.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_e7eae.dir/HAVE_LONG_LONG.c.o  -o cmTC_e7eae 
+Building C object CMakeFiles/cmTC_a7372.dir/HAVE_LONG_LONG.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_a7372.dir/HAVE_LONG_LONG.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CheckTypeSize/HAVE_LONG_LONG.c
+Linking C executable cmTC_a7372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7372.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_a7372.dir/HAVE_LONG_LONG.c.o  -o cmTC_a7372 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files dlfcn.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23e06/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23e06.dir/build.make CMakeFiles/cmTC_23e06.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5729e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5729e.dir/build.make CMakeFiles/cmTC_5729e.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23e06.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_23e06.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_23e06
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23e06.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_23e06.dir/CheckIncludeFiles.c.o  -o cmTC_23e06 
+Building C object CMakeFiles/cmTC_5729e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_5729e.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5729e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5729e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_5729e.dir/CheckIncludeFiles.c.o  -o cmTC_5729e 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files GL/glu.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec453/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec453.dir/build.make CMakeFiles/cmTC_ec453.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f944f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f944f.dir/build.make CMakeFiles/cmTC_f944f.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec453.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_ec453.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_ec453
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec453.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_ec453.dir/CheckIncludeFiles.c.o  -o cmTC_ec453 
+Building C object CMakeFiles/cmTC_f944f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_f944f.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f944f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f944f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_f944f.dir/CheckIncludeFiles.c.o  -o cmTC_f944f 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files locale.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_136f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_136f5.dir/build.make CMakeFiles/cmTC_136f5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dcc39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcc39.dir/build.make CMakeFiles/cmTC_dcc39.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_136f5.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_136f5.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_136f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_136f5.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_136f5.dir/CheckIncludeFiles.c.o  -o cmTC_136f5 
+Building C object CMakeFiles/cmTC_dcc39.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_dcc39.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_dcc39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcc39.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_dcc39.dir/CheckIncludeFiles.c.o  -o cmTC_dcc39 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files stdio.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_92320/fast"
-/usr/bin/make -f CMakeFiles/cmTC_92320.dir/build.make CMakeFiles/cmTC_92320.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fecf1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fecf1.dir/build.make CMakeFiles/cmTC_fecf1.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_92320.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_92320.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_92320
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92320.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_92320.dir/CheckIncludeFiles.c.o  -o cmTC_92320 
+Building C object CMakeFiles/cmTC_fecf1.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_fecf1.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fecf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fecf1.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_fecf1.dir/CheckIncludeFiles.c.o  -o cmTC_fecf1 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files strings.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cfe12/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cfe12.dir/build.make CMakeFiles/cmTC_cfe12.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a4f80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4f80.dir/build.make CMakeFiles/cmTC_a4f80.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cfe12.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_cfe12.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_cfe12
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfe12.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_cfe12.dir/CheckIncludeFiles.c.o  -o cmTC_cfe12 
+Building C object CMakeFiles/cmTC_a4f80.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_a4f80.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a4f80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4f80.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_a4f80.dir/CheckIncludeFiles.c.o  -o cmTC_a4f80 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files sys/select.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d704c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d704c.dir/build.make CMakeFiles/cmTC_d704c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_86003/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86003.dir/build.make CMakeFiles/cmTC_86003.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d704c.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_d704c.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_d704c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d704c.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_d704c.dir/CheckIncludeFiles.c.o  -o cmTC_d704c 
+Building C object CMakeFiles/cmTC_86003.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_86003.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_86003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86003.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_86003.dir/CheckIncludeFiles.c.o  -o cmTC_86003 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files X11/Xlib.h;X11/Xregion.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_299f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_299f6.dir/build.make CMakeFiles/cmTC_299f6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1d3ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d3ef.dir/build.make CMakeFiles/cmTC_1d3ef.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_299f6.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_299f6.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_299f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_299f6.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_299f6.dir/CheckIncludeFiles.c.o  -o cmTC_299f6 
+Building C object CMakeFiles/cmTC_1d3ef.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_1d3ef.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1d3ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d3ef.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_1d3ef.dir/CheckIncludeFiles.c.o  -o cmTC_1d3ef 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files pthread.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca859/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ca859.dir/build.make CMakeFiles/cmTC_ca859.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e9638/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9638.dir/build.make CMakeFiles/cmTC_e9638.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ca859.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_ca859.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_ca859
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca859.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_ca859.dir/CheckIncludeFiles.c.o  -o cmTC_ca859 
+Building C object CMakeFiles/cmTC_e9638.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_e9638.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e9638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9638.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_e9638.dir/CheckIncludeFiles.c.o  -o cmTC_e9638 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if files dirent.h exist passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e8c98/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e8c98.dir/build.make CMakeFiles/cmTC_e8c98.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b7c81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7c81.dir/build.make CMakeFiles/cmTC_b7c81.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8c98.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_e8c98.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTC_e8c98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c98.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_e8c98.dir/CheckIncludeFiles.c.o  -o cmTC_e8c98 
+Building C object CMakeFiles/cmTC_b7c81.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_b7c81.dir/CheckIncludeFiles.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b7c81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7c81.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_b7c81.dir/CheckIncludeFiles.c.o  -o cmTC_b7c81 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function dlsym exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a43cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a43cd.dir/build.make CMakeFiles/cmTC_a43cd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2e982/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e982.dir/build.make CMakeFiles/cmTC_2e982.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a43cd.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=dlsym   -o CMakeFiles/cmTC_a43cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a43cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a43cd.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=dlsym    -rdynamic CMakeFiles/cmTC_a43cd.dir/CheckFunctionExists.c.o  -o cmTC_a43cd -ldl 
+Building C object CMakeFiles/cmTC_2e982.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=dlsym   -o CMakeFiles/cmTC_2e982.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e982.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=dlsym    -rdynamic CMakeFiles/cmTC_2e982.dir/CheckFunctionExists.c.o  -o cmTC_2e982 -ldl 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function localeconv exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9cae4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9cae4.dir/build.make CMakeFiles/cmTC_9cae4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a7334/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7334.dir/build.make CMakeFiles/cmTC_a7334.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9cae4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=localeconv   -o CMakeFiles/cmTC_9cae4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9cae4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cae4.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=localeconv    -rdynamic CMakeFiles/cmTC_9cae4.dir/CheckFunctionExists.c.o  -o cmTC_9cae4 
+Building C object CMakeFiles/cmTC_a7334.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=localeconv   -o CMakeFiles/cmTC_a7334.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7334.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=localeconv    -rdynamic CMakeFiles/cmTC_a7334.dir/CheckFunctionExists.c.o  -o cmTC_a7334 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function png_get_valid exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4bae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4bae.dir/build.make CMakeFiles/cmTC_c4bae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e0379/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0379.dir/build.make CMakeFiles/cmTC_e0379.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c4bae.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_get_valid   -o CMakeFiles/cmTC_c4bae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c4bae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4bae.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_get_valid    -rdynamic CMakeFiles/cmTC_c4bae.dir/CheckFunctionExists.c.o  -o cmTC_c4bae /usr/lib/x86_64-linux-gnu/libpng.so 
+Building C object CMakeFiles/cmTC_e0379.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_get_valid   -o CMakeFiles/cmTC_e0379.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0379.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_get_valid    -rdynamic CMakeFiles/cmTC_e0379.dir/CheckFunctionExists.c.o  -o cmTC_e0379 /usr/lib/x86_64-linux-gnu/libpng.so 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function png_set_tRNS_to_alpha exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06f0d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06f0d.dir/build.make CMakeFiles/cmTC_06f0d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ecde3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecde3.dir/build.make CMakeFiles/cmTC_ecde3.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_06f0d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_set_tRNS_to_alpha   -o CMakeFiles/cmTC_06f0d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_06f0d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06f0d.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_set_tRNS_to_alpha    -rdynamic CMakeFiles/cmTC_06f0d.dir/CheckFunctionExists.c.o  -o cmTC_06f0d /usr/lib/x86_64-linux-gnu/libpng.so 
+Building C object CMakeFiles/cmTC_ecde3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_set_tRNS_to_alpha   -o CMakeFiles/cmTC_ecde3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ecde3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecde3.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=png_set_tRNS_to_alpha    -rdynamic CMakeFiles/cmTC_ecde3.dir/CheckFunctionExists.c.o  -o cmTC_ecde3 /usr/lib/x86_64-linux-gnu/libpng.so 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function scandir exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0ccc5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0ccc5.dir/build.make CMakeFiles/cmTC_0ccc5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23662/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23662.dir/build.make CMakeFiles/cmTC_23662.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ccc5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=scandir   -o CMakeFiles/cmTC_0ccc5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0ccc5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ccc5.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=scandir    -rdynamic CMakeFiles/cmTC_0ccc5.dir/CheckFunctionExists.c.o  -o cmTC_0ccc5 
+Building C object CMakeFiles/cmTC_23662.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=scandir   -o CMakeFiles/cmTC_23662.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23662
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23662.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=scandir    -rdynamic CMakeFiles/cmTC_23662.dir/CheckFunctionExists.c.o  -o cmTC_23662 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function snprintf exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52ba3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52ba3.dir/build.make CMakeFiles/cmTC_52ba3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_40ed3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40ed3.dir/build.make CMakeFiles/cmTC_40ed3.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_52ba3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_52ba3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_40ed3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_40ed3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_52ba3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52ba3.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=snprintf    -rdynamic CMakeFiles/cmTC_52ba3.dir/CheckFunctionExists.c.o  -o cmTC_52ba3 
+Linking C executable cmTC_40ed3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40ed3.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=snprintf    -rdynamic CMakeFiles/cmTC_40ed3.dir/CheckFunctionExists.c.o  -o cmTC_40ed3 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function strcasecmp exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c2cf0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c2cf0.dir/build.make CMakeFiles/cmTC_c2cf0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e237b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e237b.dir/build.make CMakeFiles/cmTC_e237b.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c2cf0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_c2cf0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_e237b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_e237b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_c2cf0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2cf0.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_c2cf0.dir/CheckFunctionExists.c.o  -o cmTC_c2cf0 
+Linking C executable cmTC_e237b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e237b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_e237b.dir/CheckFunctionExists.c.o  -o cmTC_e237b 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function vsnprintf exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5c35e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5c35e.dir/build.make CMakeFiles/cmTC_5c35e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d82a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d82a7.dir/build.make CMakeFiles/cmTC_d82a7.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c35e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_5c35e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_d82a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_d82a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_5c35e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c35e.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_5c35e.dir/CheckFunctionExists.c.o  -o cmTC_5c35e 
+Linking C executable cmTC_d82a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d82a7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_d82a7.dir/CheckFunctionExists.c.o  -o cmTC_d82a7 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57ff3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57ff3.dir/build.make CMakeFiles/cmTC_57ff3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_15510/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15510.dir/build.make CMakeFiles/cmTC_15510.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_57ff3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_57ff3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_57ff3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ff3.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_57ff3.dir/CheckFunctionExists.c.o  -o cmTC_57ff3 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+Building C object CMakeFiles/cmTC_15510.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_15510.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15510
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15510.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_15510.dir/CheckFunctionExists.c.o  -o cmTC_15510 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5cdb4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5cdb4.dir/build.make CMakeFiles/cmTC_5cdb4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0e2b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e2b3.dir/build.make CMakeFiles/cmTC_0e2b3.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5cdb4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_5cdb4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5cdb4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cdb4.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_5cdb4.dir/CheckFunctionExists.c.o  -o cmTC_5cdb4 
+Building C object CMakeFiles/cmTC_0e2b3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_0e2b3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e2b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e2b3.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_0e2b3.dir/CheckFunctionExists.c.o  -o cmTC_0e2b3 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64a16/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64a16.dir/build.make CMakeFiles/cmTC_64a16.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7da08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7da08.dir/build.make CMakeFiles/cmTC_7da08.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64a16.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_64a16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_64a16
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64a16.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_64a16.dir/CheckFunctionExists.c.o  -o cmTC_64a16 
+Building C object CMakeFiles/cmTC_7da08.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_7da08.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7da08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7da08.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_7da08.dir/CheckFunctionExists.c.o  -o cmTC_7da08 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38764/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38764.dir/build.make CMakeFiles/cmTC_38764.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6c556/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c556.dir/build.make CMakeFiles/cmTC_6c556.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_38764.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_38764.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_38764
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38764.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_38764.dir/CheckFunctionExists.c.o  -o cmTC_38764 
+Building C object CMakeFiles/cmTC_6c556.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_6c556.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c556.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_6c556.dir/CheckFunctionExists.c.o  -o cmTC_6c556 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d713d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d713d.dir/build.make CMakeFiles/cmTC_d713d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e3312/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3312.dir/build.make CMakeFiles/cmTC_e3312.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d713d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_d713d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d713d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d713d.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_d713d.dir/CheckFunctionExists.c.o  -o cmTC_d713d 
+Building C object CMakeFiles/cmTC_e3312.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_e3312.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3312
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3312.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_e3312.dir/CheckFunctionExists.c.o  -o cmTC_e3312 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ae13/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ae13.dir/build.make CMakeFiles/cmTC_9ae13.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1de6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1de6f.dir/build.make CMakeFiles/cmTC_1de6f.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ae13.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_9ae13.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9ae13
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ae13.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_9ae13.dir/CheckFunctionExists.c.o  -o cmTC_9ae13 -lICE 
+Building C object CMakeFiles/cmTC_1de6f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_1de6f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1de6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1de6f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_1de6f.dir/CheckFunctionExists.c.o  -o cmTC_1de6f -lICE 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f9c21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f9c21.dir/build.make CMakeFiles/cmTC_f9c21.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_69eb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69eb4.dir/build.make CMakeFiles/cmTC_69eb4.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f9c21.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_f9c21.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f9c21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c21.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_f9c21.dir/CheckIncludeFile.c.o  -o cmTC_f9c21 
+Building C object CMakeFiles/cmTC_69eb4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -o CMakeFiles/cmTC_69eb4.dir/CheckIncludeFile.c.o   -c /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_69eb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69eb4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64     -rdynamic CMakeFiles/cmTC_69eb4.dir/CheckIncludeFile.c.o  -o cmTC_69eb4 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f13db/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f13db.dir/build.make CMakeFiles/cmTC_f13db.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6f186/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f186.dir/build.make CMakeFiles/cmTC_6f186.dir/build
 make[1]: Entering directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f13db.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f13db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f13db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f13db.dir/link.txt --verbose=1
-/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f13db.dir/CheckFunctionExists.c.o  -o cmTC_f13db -lpthread 
+Building C object CMakeFiles/cmTC_6f186.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6f186.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f186.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6f186.dir/CheckFunctionExists.c.o  -o cmTC_6f186 -lpthread 
 make[1]: Leaving directory '/home/nour/OS-Project/processManager/target/debug/build/fltk-sys-bbdbb3dbcb054813/out/build/CMakeFiles/CMakeTmp'
 
 

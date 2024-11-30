@@ -1,5 +1,4 @@
 mod load_avg; 
-mod process_display;
 mod input;
 mod syscalls;
 mod common;
@@ -11,6 +10,8 @@ mod handling_filter;
 mod display_filtered;
 mod filtering;
 mod filter_gui;
+mod gui_display;
+mod cli_display;
 
 use fltk::{
     app,
@@ -20,7 +21,7 @@ use fltk::{
     window::Window,
     dialog,
 };
-use ctrlc_handler::{exiting_loop, RUNNING};
+use ctrlc_handler::{setup_ctrlc_handler, exiting_loop, RUNNING};
 use crate::common::Ordering;
 use load_avg::{display_load_avg_gui, display_load_avg_cli};
 use zombie_processes::{display_zombie_processes_gui, display_zombie_processes_cli};
@@ -28,7 +29,8 @@ use syscalls::{syscalls_gui, syscalls_cli};
 use process_tree::display_process_tree_gui;
 use threshold_monitor::{display_threshold_monitor_gui, set_thresholds_cli, cleanup_monitor, start_threshold_monitor};
 use handling_filter::handle_filter_process;
-use process_display::{display_process_info_gui, display_process_info_cli, display_filter_gui};
+use gui_display::{display_process_info_gui, display_filter_gui};
+use cli_display::display_process_info;
 
 fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
     let app = app::App::default();
@@ -36,10 +38,10 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
     // Create FLTK channel for warnings
     let (sender, receiver) = app::channel::<String>();
     
-    start_threshold_monitor(80.0, Some(sender.clone()));
+    start_threshold_monitor(2000.0, Some(sender.clone()));
     
     let mut wind = Window::default()
-        .with_size(400, 600)
+        .with_size(400, 650)
         .with_label("System Monitor")
         .center_screen();
     
@@ -98,7 +100,7 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
         .with_size(button_width, button_height)
         .with_pos(button_x, button_y)
         .with_label("Filter Processes");
-
+    
     // Apply the same style to all buttons
     let mut buttons = [
         &mut process_btn, 
@@ -106,7 +108,7 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
         &mut syscalls_btn, 
         &mut zombie_btn, 
         &mut proctree_btn, 
-        &mut threshold_btn, 
+        &mut threshold_btn,
         &mut filter_btn
     ];
 
@@ -119,17 +121,13 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
     wind.end();
     wind.show();
 
-    // Set up callbacks
+    // Update the filter button callback
     filter_btn.set_callback(move |_| {
         RUNNING.store(true, Ordering::SeqCst);
         let _ = display_filter_gui();
     });
 
-    threshold_btn.set_callback(move |_| {
-        RUNNING.store(true, Ordering::SeqCst);
-        let _ = display_threshold_monitor_gui();
-    });
-
+    // Set up callbacks
     process_btn.set_callback(move |_| {
         RUNNING.store(true, Ordering::SeqCst);
         let _ = display_process_info_gui();
@@ -155,12 +153,17 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
         let _ = display_process_tree_gui();
     });
 
+    threshold_btn.set_callback(move |_| {
+        RUNNING.store(true, Ordering::SeqCst);
+        let _ = display_threshold_monitor_gui();
+    });
+
     // Main event loop
     while app.wait() {
         if let Some(warning) = receiver.recv() {
             println!("Received warning in GUI: {}", warning);
             dialog::alert_default(&warning);
-            app.redraw();  // Ensure the GUI updates
+            app.redraw();
         }
         
         if !RUNNING.load(Ordering::SeqCst) {
@@ -172,69 +175,18 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-fn run_cli() -> Result<(), Box<dyn std::error::Error>> {
-    loop {
-        let input = input::get_user_input("\n To Display Process information enter 'display', \n To display filtered process enter 'filter',\n To display load average enter 'loadavg' \n To run system calls enter 'command' \n To Display Zombie Processes enter 'zombies' \n To view process tree enter 'tree' \n To set resource thresholds enter 'threshold' \n To exit enter 'exit': ");
-
-        match input.as_str() {
-            "display" => {
-                RUNNING.store(true, Ordering::SeqCst); 
-                display_process_info_cli()?;
-            }
-            "filter" => {
-                handle_filter_process()?;
-            }
-            "loadavg" => {
-                RUNNING.store(true, Ordering::SeqCst); 
-                display_load_avg_cli()?; 
-            }
-            "command" => {
-                syscalls_cli();
-            }
-            "zombies" => {
-                display_zombie_processes_cli();
-            }
-            "tree" => {
-                println!("Process tree viewer is only available in GUI mode");
-            }
-            "threshold" => {
-                RUNNING.store(true, Ordering::SeqCst);
-                set_thresholds_cli()?;
-            }
-            "exit" => {
-                break;
-            }
-            _ => {
-                println!("Unknown command, try again.");
-            }
-        }
-    }
-    Ok(())
-}
-
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    exiting_loop();
+    setup_ctrlc_handler()?;
     
-    println!("Welcome to Linux Process Manager!");
-    println!("Please choose your interface:");
-    println!("1. Type 'gui' for Graphical User Interface");
-    println!("2. Type 'cli' for Command Line Interface");
+    println!("\nGUI/CLI: ");
+    let mut input = String::new();
+    std::io::stdin().read_line(&mut input)?;
     
-    let choice = input::get_user_input("Enter your choice (gui/cli): ");
-    
-    match choice.to_lowercase().as_str() {
-        "gui" => run_gui()?,
-        "cli" => {
-            // Start threshold monitor without warnings for CLI
-            start_threshold_monitor(80.0, None);
-            run_cli()?
-        },
-        _ => {
-            println!("Invalid choice. Please run the program again and choose either 'gui' or 'cli'.");
-            return Ok(());
-        }
+    match input.trim().to_uppercase().as_str() {
+        "GUI" => run_gui()?,
+        "CLI" => display_process_info()?,
+        _ => println!("Invalid input. Please enter either 'GUI' or 'CLI'"),
     }
     
-    cleanup_monitor();
     Ok(())
 }
