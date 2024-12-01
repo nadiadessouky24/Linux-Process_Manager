@@ -27,7 +27,7 @@ use load_avg::{display_load_avg_gui, display_load_avg_cli};
 use zombie_processes::{display_zombie_processes_gui, display_zombie_processes_cli};
 use syscalls::{syscalls_gui, syscalls_cli};
 use process_tree::display_process_tree_gui;
-use threshold_monitor::{display_threshold_monitor_gui, set_thresholds_cli, cleanup_monitor, start_threshold_monitor};
+use threshold_monitor::{display_threshold_monitor_gui, cleanup_monitor, start_threshold_monitor};
 use handling_filter::handle_filter_process;
 use gui_display::{display_process_info_gui, display_filter_gui};
 use cli_display::display_process_info;
@@ -38,7 +38,7 @@ fn run_gui() -> Result<(), Box<dyn std::error::Error>> {
     // Create FLTK channel for warnings
     let (sender, receiver) = app::channel::<String>();
     
-    start_threshold_monitor(2000.0, Some(sender.clone()));
+    start_threshold_monitor(100.0, Some(sender.clone()));
     
     let mut wind = Window::default()
         .with_size(400, 650)

@@ -62,7 +62,7 @@ impl ProcessDisplay {
         let mut sysinfo = System::new_all();
         let stat_sys = StatSystem::new();
         sysinfo.refresh_all();
-        
+        thread::sleep(Duration::from_secs(2));
         Self {
             sysinfo,
             stat_sys,
