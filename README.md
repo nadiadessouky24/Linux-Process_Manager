@@ -49,5 +49,13 @@ Users can click on 'n' to change niceness for a process, and 'k' to kill a proce
     cargo run
 3. **Choose if you want to continue with GUI or CLI**
 
+## Authors
 
+Amal Fouda
+
+Nour Selim
+
+Nadia Dessouky
+
+Mohamed Tarek
 
